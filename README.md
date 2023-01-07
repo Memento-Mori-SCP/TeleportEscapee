@@ -1,6 +1,6 @@
 # TeleportEscapee
 ## Description
-[**SCP:SL**](https://scpslgame.com/)[^scpsl] plugin using [**NwAPI**](https://github.com/northwood-studios/NwPluginAPI)[^nwapi] that teleports players who escape to their previous position.
+**[SCP:SL](https://scpslgame.com/)[^scpsl] plugin using [NwAPI](https://github.com/northwood-studios/NwPluginAPI)[^nwapi] that teleports players who escape to their previous position.**
 
 ## Installation
 1. **Download the [latest release](https://github.com/Memento-Mori-SCP/TeleportEscapee/releases/latest) from the [releases page](https://github.com/Memento-Mori-SCP/TeleportEscapee/releases).**
