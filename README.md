@@ -8,7 +8,7 @@
 3. **Restart your game server to load plugin.**
 
 ## Configuration
-The configuration file is located in **~/.config/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee** on Linux or **%AppData%/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee** on Windows 10.
+**The configuration file is located in _~/.config/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee_ on Linux or _%AppData%/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee_ on Windows 10.**
 
 Property | Type | Default | Description
 ----- | :---: | :---: | :------:
