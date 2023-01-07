@@ -15,6 +15,7 @@ Property | Type | Default | Description
 **`IsEnabled`** | `Boolean` | `true` | **`Enable or disable plugin.`**
 **`DebugMessages`** | `Boolean` | `false` | **`Enables or disables debugging messages in the console.`**
 
+
 ##Credits
 Plugin By [Memento Mori ~ Dev](https://github.com/Memento-Mori-SCP).
 NwAPI[^2] and SCP:SL By [Northwood Studios](https://github.com/northwood-studios).
