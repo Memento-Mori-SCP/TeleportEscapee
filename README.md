@@ -17,7 +17,9 @@ Property | Type | Default | Description
 
 ## Credits
 Plugin By [Memento Mori ~ Dev](https://github.com/Memento-Mori-SCP).
+
 NwAPI[^2] and SCP:SL By [Northwood Studios](https://github.com/northwood-studios).
+
 MEC[^3] By [Trinary Software](http://trinary.tech/).
 
 ## License
