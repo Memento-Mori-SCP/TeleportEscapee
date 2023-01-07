@@ -12,8 +12,8 @@ The configuration file is located in **~/.config/SCP Secret Laboratory/PluginAPI
 
 Property | Type | Default | Description
 ----- | :---: | :---: | :------:
-IsEnabled | Boolean | true | Enables or disables plugin.
-DebugMessages | Boolean | false | Enables or disables debugging messages in the console.
+**`IsEnabled`** | `Boolean` | `true` | **`Enable or disable plugin.`**
+**`DebugMessages`** | `Boolean` | `false` | **`Enables or disables debugging messages in the console.`**
 
 ##Credits
 Plugin By [Memento Mori ~ Dev](https://github.com/Memento-Mori-SCP).
