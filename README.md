@@ -4,11 +4,11 @@
 
 ## Installation
 1. **Download the [latest release](https://github.com/Memento-Mori-SCP/TeleportEscapee/releases/latest) from the [releases page](https://github.com/Memento-Mori-SCP/TeleportEscapee/releases).**
-2. **Copy the TeleportEscapee.dll file into your **Plugins** folder[^linux][^win10].**
+2. **Copy the TeleportEscapee.dll file into your **Plugins** folder[^linuxPlugins][^win10Plugins].**
 3. **Restart your game server to load plugin.**
 
 ## Configuration
-**The configuration file is located in _~/.config/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee_ on Linux or _%AppData%/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee_ on Windows 10.**
+**The configuration file location[^linuxConfigs][^win10Configs]**
 
 Property | Type | Default | Description
 ----- | :--: | :--: | :-----:
@@ -23,10 +23,13 @@ Property | Type | Default | Description
 **MEC[^mec] By [Trinary Software](http://trinary.tech/).**
 
 ## License
-This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE)[^license] file for details.
 
 [^scpsl]: SCP: Secret Laboratory.
 [^nwapi]: Northwood Plugin API.
 [^mec]: More Effective Coroutines.
-[^linux]: ~/.config/SCP Secret Laboratory/PluginAPI/plugins/(global or your server port) on Linux.
-[^win10]: %AppData%/SCP Secret Laboratory/PluginAPI/plugins/(global or your server port) on Windows 10.
+[^linuxPlugins]: ~/.config/SCP Secret Laboratory/PluginAPI/plugins/(global or your server port)/ on Linux.
+[^win10Plugins]: %AppData%\SCP Secret Laboratory\PluginAPI\plugins\(global or your server port) on Windows 10.
+[^linuxConfigs]: ~/.config/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee on Linux.
+[^win10Configs]: %AppData%\SCP Secret Laboratory\PluginAPI\plugins\(global or your server port)\TeleportEscapee on Windows 10.
+[^license]: GNU General Public License v3.0
