@@ -3,9 +3,9 @@
 [**SCP:SL**](https://scpslgame.com/)[^scpsl] plugin using [**NwAPI**](https://github.com/northwood-studios/NwPluginAPI)[^nwapi] that teleports players who escape to their previous position.
 
 ## Installation
-1. Download the [latest release](https://github.com/Memento-Mori-SCP/TeleportEscapee/releases/latest) from the [releases page](https://github.com/Memento-Mori-SCP/TeleportEscapee/releases).
-2. Copy the TeleportEscapee.dll file into your **Plugins** folder[^linux][^win10].
-3. Restart your game server to load plugin.
+1. **Download the [latest release](https://github.com/Memento-Mori-SCP/TeleportEscapee/releases/latest) from the [releases page](https://github.com/Memento-Mori-SCP/TeleportEscapee/releases).**
+2. **Copy the TeleportEscapee.dll file into your **Plugins** folder[^linux][^win10].**
+3. **Restart your game server to load plugin.**
 
 ## Configuration
 The configuration file is located in **~/.config/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee** on Linux or **%AppData%/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee** on Windows 10.
