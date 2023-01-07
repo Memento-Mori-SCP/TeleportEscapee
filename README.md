@@ -20,7 +20,7 @@ Property | Type | Default | Description
 
 **[SCP:SL](https://scpslgame.com/)[^scpsl] and [NwAPI](https://github.com/northwood-studios/NwPluginAPI)[^nwapi] By [Northwood Studios](https://github.com/northwood-studios).**
 
-**MEC[^mec] By [Trinary Software](http://trinary.tech/).**
+**[MEC](http://trinary.tech/category/mec/)[^mec] By [Trinary Software](http://trinary.tech/).**
 
 ## License
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE)[^license] file for details.
