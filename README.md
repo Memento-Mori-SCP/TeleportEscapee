@@ -15,13 +15,12 @@ Property | Type | Default | Description
 **`IsEnabled`** | `Boolean` | `true` | **`Enable or disable plugin.`**
 **`DebugMessages`** | `Boolean` | `false` | **`Enables or disables debugging messages in the console.`**
 
-
 ## Credits
 Plugin By [Memento Mori ~ Dev](https://github.com/Memento-Mori-SCP).
 NwAPI[^2] and SCP:SL By [Northwood Studios](https://github.com/northwood-studios).
 MEC[^3] By [Trinary Software](http://trinary.tech/).
 
-### License
+## License
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
 [^1]: SCP: Secret Laboratory.
