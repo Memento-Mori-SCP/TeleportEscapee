@@ -11,7 +11,7 @@
 **The configuration file location[^linuxConfigs][^win10Configs]**
 
 Property | Type | Default | Description
--- | :--: | :--: | :---:
+--- | :--: | :--: | ----
 **`IsEnabled`** | `Boolean` | `true` | **`Enable or disable plugin.`**
 **`DebugMessages`** | `Boolean` | `false` | **`Enables or disables debugging messages in the console.`**
 
