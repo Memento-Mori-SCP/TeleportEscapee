@@ -1,4 +1,4 @@
-#TeleportEscapee
+# TeleportEscapee
 ## Description
 [**SCP:SL**](https://scpslgame.com/)[^scpsl] plugin using [**NwAPI**](https://github.com/northwood-studios/NwPluginAPI)[^nwapi] that teleports players who escape to their previous position.
 
