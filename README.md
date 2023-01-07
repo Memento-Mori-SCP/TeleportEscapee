@@ -7,7 +7,7 @@ Download the [latest release](https://github.com/Memento-Mori-SCP/TeleportEscape
 Copy the TeleportEscapee.dll file into your **Plugins** folder[^linux][^win10].
 Restart your game server to load plugin.
 
-##Configuration
+## Configuration
 The configuration file is located in **~/.config/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee** on Linux or **%AppData%/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee** on Windows 10.
 
 Property | Type | Default | Description
@@ -16,7 +16,7 @@ Property | Type | Default | Description
 **`DebugMessages`** | `Boolean` | `false` | **`Enables or disables debugging messages in the console.`**
 
 
-##Credits
+## Credits
 Plugin By [Memento Mori ~ Dev](https://github.com/Memento-Mori-SCP).
 NwAPI[^2] and SCP:SL By [Northwood Studios](https://github.com/northwood-studios).
 MEC[^3] By [Trinary Software](http://trinary.tech/).
