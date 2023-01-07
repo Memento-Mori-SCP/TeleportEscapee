@@ -28,8 +28,8 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE)[
 [^scpsl]: SCP: Secret Laboratory.
 [^nwapi]: Northwood Plugin API.
 [^mec]: More Effective Coroutines.
-[^linuxPlugins]: ~/.config/SCP Secret Laboratory/PluginAPI/plugins/(global or your server port)/ on Linux.
-[^win10Plugins]: %AppData%\SCP Secret Laboratory\PluginAPI\plugins\(global or your server port) on Windows 10.
-[^linuxConfigs]: ~/.config/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee on Linux.
-[^win10Configs]: %AppData%\SCP Secret Laboratory\PluginAPI\plugins\(global or your server port)\TeleportEscapee on Windows 10.
+[^linuxPlugins]: ~/.config/SCP Secret Laboratory/PluginAPI/plugins/(global or your server port) on Linux.
+[^win10Plugins]: %AppData%/SCP Secret Laboratory/PluginAPI/plugins/(global or your server port) on Windows 10.
+[^linuxConfigs]: ~/.config/SCP Secret Laboratory/PluginAPI/plugins/(global or your server port)/TeleportEscapee on Linux.
+[^win10Configs]: %AppData%/SCP Secret Laboratory/PluginAPI/plugins/(global or your server port)/TeleportEscapee on Windows 10.
 [^license]: GNU General Public License v3.0
