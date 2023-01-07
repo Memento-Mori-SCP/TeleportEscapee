@@ -7,9 +7,11 @@ namespace TeleportEscapee
 {
     public sealed class Plugin
     {
-        [PluginConfig] public static Config Config;
+        private EventHandlers _handlers;
 
-        [PluginEntryPoint("TeleportEscapee", "1.0.0", "Teleports players who escape to their previous position.", "Memento Mori ~ Dev")]
+        [PluginConfig] public Config Config;
+
+        [PluginEntryPoint("TeleportEscapee", "1.1.0", "Teleports players who escape to their previous position.", "Memento Mori ~ Dev")]
         public void Run()
         {
             if (!Config.IsEnabled)
@@ -17,7 +19,17 @@ namespace TeleportEscapee
                 return;
             }
 
-            EventManager.RegisterEvents<EventHandlers>(this);
+            _handlers = new (Config.DebugMessages);
+
+            EventManager.RegisterEvents(this, _handlers);
+        }
+
+        [PluginUnload]
+        public void Unload()
+        {
+            EventManager.UnregisterEvents(this, _handlers);
+
+            _handlers = null;
         }
     }
 }

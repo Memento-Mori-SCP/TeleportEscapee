@@ -1,3 +1,4 @@
+using System;
 using MEC;
 using PlayerRoles;
 using PlayerRoles.FirstPersonControl;
@@ -10,21 +11,31 @@ namespace TeleportEscapee.Handlers
 {
     internal sealed class EventHandlers
     {
+        public EventHandlers(bool debug)
+        {
+            OnDelayEnded += TeleportPlayer;
+
+            if (!debug)
+            {
+                return;
+            }
+
+            OnDelayEnded += (player, pos, _) => WriteDebug(player.Nickname, pos);
+        }
+
+        private static event Action<Player, Vector3, Vector3> OnDelayEnded;
+
         [PluginEvent(ServerEventType.PlayerEscape)]
         public void OnPlayerEscape(Player player, RoleTypeId newRole)
-        {
-            Vector3 previousPosition = player.Position;
-            Vector3 previousRotation = player.Rotation;
+            => Delay(player, player.Position, player.Rotation);
 
-            Timing.CallDelayed(0.000003f, delegate
-            {
-                player.ReferenceHub.TryOverridePosition(previousPosition, previousRotation);
+        private static void Delay(Player player, Vector3 position, Vector3 rotation)
+            => Timing.CallDelayed(0.000003f, () => OnDelayEnded?.Invoke(player, position, rotation));
 
-                if (Plugin.Config.DebugMessages)
-                {
-                    Log.Info($"Teleported player {player.Nickname} back to their last position ({previousPosition}).", nameof(TeleportEscapee));
-                }
-            });
-        }
+        private static void TeleportPlayer(Player player, Vector3 position, Vector3 rotation)
+            => player.ReferenceHub.TryOverridePosition(position, rotation);
+
+        private static void WriteDebug(string nickname, Vector3 position)
+            => Log.Info($"Teleported player {nickname} back to their previous position ({position}).", nameof(TeleportEscapee));
     }
 }
