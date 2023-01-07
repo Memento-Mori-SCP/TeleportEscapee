@@ -11,7 +11,7 @@
 **The configuration file is located in _~/.config/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee_ on Linux or _%AppData%/SCP Secret Laboratory/PluginAPI/plugins/global/TeleportEscapee_ on Windows 10.**
 
 Property | Type | Default | Description
------ | :---: | :---: | :----:
+----- | :---: | :---: | -----
 **`IsEnabled`** | `Boolean` | `true` | **`Enable or disable plugin.`**
 **`DebugMessages`** | `Boolean` | `false` | **`Enables or disables debugging messages in the console.`**
 
